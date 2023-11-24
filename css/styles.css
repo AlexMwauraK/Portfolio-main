@@ -119,7 +119,8 @@ body{
   100% {transform: scale(0)}
 }
 @media only screen and (max-width: 768px){
-  html{
+  body{
     padding: 0 10px;
+    overflow: hidden;
   }
 }
