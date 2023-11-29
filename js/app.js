@@ -36,8 +36,8 @@ var typed = new Typed('.element', {
     }); 
   });
 
-  const animateElements = document.querySelectorAll('.animate');
-  const skillboxElements = document.querySelectorAll('.skillbox');
-  animateElements.forEach((el) => observer.observe(el));
-  skillboxElements.forEach((el) => observer.observe(el));
+const animateElements = document.querySelectorAll('.animate');
+const skillboxElements = document.querySelectorAll('.skillbox');
+animateElements.forEach((el) => observer.observe(el));
+skillboxElements.forEach((el) => observer.observe(el));
   
