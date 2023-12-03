@@ -22,7 +22,7 @@
   background: linear-gradient(transparent, rgb(0, 255, 157, 0.60));
 }
 html{
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url("/img/background.jpg");
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url("/img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -408,7 +408,6 @@ section{
   padding-top: 4em;
 }
 .grid-item{
-  /* border: 1px solid #fff; */
   height: auto;
 }
 .service-name{
@@ -446,6 +445,9 @@ section{
   line-height: 2em;
   text-align: justify;
   font-family: 'Poppins', sans-serif;
+}
+.service-borders{
+  border: 1px solid #e3e3e3;
 }
 /* projects  */
 #projects-container{
